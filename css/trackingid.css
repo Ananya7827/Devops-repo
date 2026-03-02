@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    height: 12vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.headernav {
+    display: flex;
+    width: 100%;
+ 
+}
+
+h2 {
+    
+    color: white;
+    text-decoration: underline;
+    font-family: 'Baloo Bhai 2',cursive;
+    font-size: 30px;
+}
+  .heading {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -174px;
+
+  }
+
+main {
+    min-height: calc(100vh - 12vh - 12vh);
+    width: 100vw;   
+  
+}
+.bgimages{
+    background-image: url('https://cdn.pixabay.com/photo/2023/11/05/09/36/ai-generated-8366613_1280.jpg');
+    background-repeat: no-repeat;
+    opacity: 0.75;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.form{
+   border: 4px solid black;
+   height: 40vw;
+   background-color: white;
+   width: 40vw;
+   opacity: 0.8;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.type{
+    width: 17vw;
+    height: 3vw;
+    margin: 27px;
+    border: 3px solid black;
+  border-radius: 3px;
+}
+.track
+{
+    font-family: 'Baloo Bhai 2',cursive;
+    font-size: 28px;
+    margin: 35px;
+    
+}
+
+input[type="checkbox"] {
+    transform: scale(2); /* Scale the checkbox (1.5x larger) */
+    margin-right: 21px; 
+  }
+
+  input[type="button"] {
+    transform: scale(2); 
+    /* Scale the checkbox (1.5x larger) */
+    margin-top: 90px; 
+    cursor: pointer;
+  padding: 3px;
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 3px;
+  }
+
+.checkbox-container{
+    display: flex;
+    font-family: 'Baloo Bhai 2',cursive;
+    font-size: 28px;
+    margin-top: 45px;
+    
+}
+.type::placeholder {
+  font-weight: bolder;
+}
+
+
+footer {
+    background-color: black;
+    color: aliceblue;
+    height: 12vh;
+    font-family: 'Baloo Bhai 2', cursive;
+    margin-top: 0;
+}
+
+.footernav ul {
+    margin-left: 20px;
+}
+
+.rights {
+    font-size: 18px;
+}
+
+.footernav ul li {
+    list-style: none;
+}
+
+.footernav ul li a {
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+    text-decoration: underline;
+    padding-left: 25px;
+    font-size: 18px;
+
+
+}
+.footnav {
+    display: flex;
+}
